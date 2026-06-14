@@ -1,3 +1,11 @@
+# Elaborar un algoritmo que permita leer los datos de un automóvil: marca, origen y costo; imprimir el impuesto a pagar y el precio de venta incluyendo el impuesto.
+# Considerar lo siguiente:
+# - Si el origen es 'Alemania', el impuesto es de 20%
+# - Si es 'Japón', el impuesto es 30%
+# - Si es de 'Italia', 15%
+# - Si es 'USA', 8%
+# Salir del programa solo cuando el usuario ya no desee ingresar otro vehículo. Al final indicar cuántos vehículos se ingresaron así como el monto total de los precios de venta por todos los vehículos.
+
 def borrarPantalla():
     print("\033c")
     

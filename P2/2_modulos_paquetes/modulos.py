@@ -6,7 +6,7 @@ def funcion1():
     apellidos=input("Apellidos: ").upper().strip()
     print(f"El nombre del alumno es: {nombre} {apellidos}")
 
-#3.- Funcion que recibe parametros y no regresa valor 
+#3.- Funcion que recibe parametros y no regresa valor. 
 def funcion3(nom,ape):
     nombre=nom
     apellidos=ape

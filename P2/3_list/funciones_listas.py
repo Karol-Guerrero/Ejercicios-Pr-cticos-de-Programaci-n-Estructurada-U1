@@ -23,13 +23,13 @@ print(vacio)
 
 #Recorrer la lista 
 #1er forma 
-#paises=["Mexico","Canada","EUA","Mexico","Brasil"]
+paises=["Mexico","Canada","EUA","Mexico","Brasil"]
 for i in paises:
     print(i)
 
 
 # #2do forma 
-for i  in range(0,len(paises)):
+for i  in range(3,len(paises)):
     print(paises[i])
 
 #ordenar elementos de una lista
@@ -59,7 +59,7 @@ print(paises)
 
 
 #2da forma 
-paises.remove.reque("EUA")
+paises.remove("EUA")
 print(paises)
 #Buscar un elemento dentro de la lista
 encontro="Mexico" in paises
@@ -70,12 +70,18 @@ numeros=[23,45,8,24,23,100,23]
 paises=["Mexico","Canada","EUA","Mexico","Brasil"]
 num_veces=numeros.count(23)
 print(f"valor 23 aparece {num_veces} veces")
-num_veces=numeros.count("Mexico")
-print(f"valor Mexico aparece {num_veces} veces")
+
+numeros=[23,45,8,24,23,100,23]
+paises=["Mexico","Canada","EUA","Mexico","Brasil"]
+num_veces=paises.count("Mexico")
+print(f"valor México aparece {num_veces} veces")
+
 #Conocer la posicion o indice en el que se encuentra un elemento de la lista
 paises=["Mexico","Canada","EUA","Mexico","Brasil"]
-posicion=paises.index("Mexico")
+posicion=paises.index("Canada")
 print(f"Encontre el valor en la posicion {posicion}")
+
+
 #Unir el contenido de una lista dentro de otra lista
 numeros1=[23,45,8,24,23,100,23]
 numeros2=[100,-100]

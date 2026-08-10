@@ -1,4 +1,4 @@
-from paquete1 import modulos,modulo_paquete
+from paquete1 import Modulos_Nuevo,modulo_paquete,modulos
 
 modulos.borrarPantalla()
 modulos.funcion1()

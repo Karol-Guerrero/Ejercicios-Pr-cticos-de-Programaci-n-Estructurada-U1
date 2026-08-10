@@ -32,7 +32,7 @@ def funcion2():
    apellidos=input("Apellidos: ").upper().strip()
    return nombre,apellidos
 
- #3.- Funcion que recibe parametros y no regresa valor 
+ #3.- Funcion que recibe parametros y no regresa valor. 
 def funcion1():
    nombre=input("Nombre: ").upper().strip()
    apellidos=input("Apellidos: ").upper().strip()
